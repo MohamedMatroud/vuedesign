@@ -1,0 +1,316 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(./images//packground.jpeg);
+    background-size: cover;
+    /* background-color: #e5e5f7;
+    opacity: 0.8; */
+    /* background-image: linear-gradient(to right,  #e5e5f7 25px, #e5e5f7,#e2a2b0, #e2a2b0 5px ); */
+    /* background-image: linear-gradient(to right,  #ffffff 25px, #ffffff,#ffeef1, #ffeef1 5px );
+
+    background-size: 70px 100%; */
+}
+
+/* #app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  margin-top: 60px;
+} */
+
+nav .nav-item a{
+    color: #2c4b78 !important;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav button {
+    font-size: 24px;
+    color: rgb(233, 21, 21) !important;
+    border: white !important;
+}
+nav button i{
+    margin-left: 5px;
+    font-size: 20px;
+}
+hr{
+    color: orangered !important;
+    width: 10px;
+}
+.navbar-brand{
+    color: #2c4b78 !important;
+    font-size: 20px;
+    font-weight: 700;
+
+    border-bottom:3px  solid orangered ;
+}
+.navbar-nav{
+    margin-left: 15px !important;
+}
+.spirit{
+ 
+    width: 85%;
+    margin: auto;
+}
+.spirit h1{
+    color: #2c4b78 !important;
+    font-size: 40px !important;
+    font-weight: 600;
+  
+}
+.spirit p{
+    margin-bottom: 30px;
+    color: #2c4b78 !important;
+
+}
+ .btn-more{
+    padding: 10px 25px;
+    background-color: rgb(233, 21, 21);
+    color: white;
+    border-radius: 50px;
+    transition: all .45s;
+}
+.btn-more:hover{
+    background-color: rgb(231, 199, 199);
+    font-weight: 600;
+    color: #2c4b78 !important;
+}
+.spirit .btn-get{
+    font-weight: 600;
+    color: #2c4b78 !important;
+    transition: all .45s;
+
+}
+.spirit .btn-get:hover{
+    padding: 10px 25px;
+    background-color: rgb(233, 21, 21);
+    color: white !important;
+    border-radius: 50px;
+}
+
+.web{
+ 
+    width: 85%;
+    margin: auto;
+}
+.web h1{
+    color: #2c4b78 !important;
+    font-size: 40px !important;
+    font-weight: 600;
+  
+}
+.card{
+    border: none !important;
+}
+.card-img-top {
+    padding: 1rem 1rem;
+    width: 40%;
+}
+.card-title{
+    color: #2c4b78 !important;
+}
+.card-text{
+    color: #2c4b78 !important; 
+}
+.our{
+ 
+    width: 85%;
+    margin: auto;
+}
+.our h1{
+    color: #2c4b78 !important;
+    font-size: 40px !important;
+    font-weight: 600;
+  
+}
+.our h5 {
+    color: rgb(233, 21, 21);
+}
+.our .p{
+    margin-bottom: 30px;
+    color: #2c4b78 !important;
+}
+.our p{
+    color: #2c4b78 !important;
+}
+.our span i{
+    color: #2c4b78 !important;
+    font-size: 28px;
+}
+.our span .left{
+    margin-right: 15px !important;
+}
+
+.port{
+ 
+    width: 85%;
+    margin: auto;
+}
+.port h1{
+    color: #2c4b78 !important;
+    font-size: 40px !important;
+    font-weight: 600;
+  
+}
+.port span i{
+    color: #2c4b78 !important;
+    font-size: 28px;
+}
+.port span .left{
+    margin-right: 15px !important;
+}
+.port .see{
+    text-align: center;
+}
+.port .btn-get{
+    font-weight: 600;
+    color: rgb(233, 21, 21) !important;
+    transition: all .45s;
+
+}
+.port .btn-get:hover{
+    padding: 10px 25px;
+    background-color: rgb(233, 21, 21);
+    color: white !important;
+    border-radius: 50px;
+}
+
+.check{
+ 
+    width: 85%;
+    margin: auto;
+}
+.check h1{
+    color: #2c4b78 !important;
+    font-size: 40px !important;
+    font-weight: 600;
+  
+}
+.check h1 span i{
+    font-size: 28px !important;
+}
+.check span .left{
+    margin-right: 15px !important;
+}
+ .top{ 
+    background-color: rgb(233, 21, 21) !important;
+    color: white;
+
+}
+.top h4{
+    color: white !important;
+}
+.top h5{
+    color: white !important;
+    font-size: 15px;
+}
+.top p{
+    color: white !important;
+}
+.top span i{
+    color: white !important;
+    font-size: 28px;
+}
+
+.check .title h5 {
+    color: rgb(233, 21, 21) ;
+}
+
+
+.sec h4{
+    color: #2c4b78 !important;
+}
+.sec h5{
+    color: #2c4b78 !important;
+    font-size: 15px;
+}
+.sec p{
+    color: #2c4b78 !important;
+}
+.sec span i{
+    color: rgb(233, 21, 21) ;
+
+    font-size: 28px;
+}
+
+
+
+
+.contact{
+ 
+    width: 85%;
+    margin: auto;
+}
+.contact .title h5 {
+    color: rgb(233, 21, 21) ;
+}
+.contact h1{
+    color: #2c4b78 !important;
+    font-size: 40px !important;
+    font-weight: 600;
+  
+}
+.contact .see{
+    text-align: center;
+    margin-bottom: 50px !important;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: rgb(0 0 0 / 21%);
+    background-clip: padding-box;
+    border: 1px solid #110c0c12;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+footer{
+    opacity: 0.8;
+    padding: 5px;
+    background-color: #2c4b78 !important;
+    text-align: center;
+    width: 100%;;
+}
+footer h4{
+    color: white;
+}
+footer h2{
+    color: rgb(233, 21, 21);
+}
+
+footer ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+footer ul li a{
+color: white !important;
+}
+
+footer ul li a i{
+    font-size: 30px;
+    }
+    
+
+footer span{
+    color: black;
+}
